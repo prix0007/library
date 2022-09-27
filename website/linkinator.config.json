@@ -1,0 +1,13 @@
+{
+    "recurse": true,
+    "silent": true,
+    "directoryListing": true,
+    "skip": [
+      "http://localhost:3000/css/fonts.css",
+      "http://localhost:3000/css/landing-page.css",
+      "http://localhost:3000/css/copy-code-button.css",
+      "https://etherscan.io/chart/gasprice",
+      "https://ropsten.etherscan.io/*"
+    ],
+    "retry": true
+  }

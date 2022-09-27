@@ -1,0 +1,30 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^/"
+    },
+    {
+      "pattern": "^http://127.0.0.1"
+    },
+    {
+      "pattern": "^https://etherscan.io"
+    },
+    {
+      "pattern": "^https://crates.io"
+    },
+    {
+      "pattern": "^https://ropsten.etherscan.io"
+    },
+    {
+      "pattern": "^https://help.github.com"
+    },
+    {
+      "pattern": "^https://alpha.dripverse.org"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "retryCount": 5,
+  "fallbackRetryDelay": "30s",
+  "aliveStatusCodes": [200, 206]
+}
