@@ -87,6 +87,11 @@ module.exports = {
           label: "📃 Litepaper",
           position: "left",
         },
+        {
+          href: "https://blog.dripverse.org",
+          label: "Blog",
+          position: "right",
+        },
       ],
     },
     image: "img/logo.png",

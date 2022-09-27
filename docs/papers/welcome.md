@@ -95,16 +95,5 @@ Smart NFTs are the undoubtedly future of NFTs. And DripVerse Tools are here to n
         </div>
       </div>
     </div>
-    <div className="col col--2">
-      <div className="avatar">
-        <img
-          className="avatar__photo"
-          src={require("@site/static/docs/assets/home/discord.png").default} />
-        <div className="avatar__intro">
-          <div className="avatar__name">Discord</div>
-          <small className="avatar__subtitle"><a href="https://discord.gg/xxx">DripVerse</a></small>
-        </div>
-      </div>
-    </div>
   </div>
 </div>

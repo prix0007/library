@@ -167,9 +167,9 @@ function Footer() {
                   <span className="screen-reader-text">GitHub</span>
                 </a>
               </li>
-              <li className="mx-20">
+              {/* <li className="mx-20">
                 <a
-                  href="http://discord.gg/xxx"
+                  href="http://discord.gg/mCVFhmbQvw"
                   className="block hover:text-discord"
                   target="_blank"
                 >
@@ -183,7 +183,7 @@ function Footer() {
                   </span>
                   <span className="screen-reader-text">Discord</span>
                 </a>
-              </li>
+              </li> */}
               <li className="mx-20">
                 <a
                   href="https://t.me/DripVerse"
@@ -292,6 +292,9 @@ function Footer() {
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
                     <a href="https://alpha.dripverse.org">Try it out</a>
                   </li>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
+                    <a href="https://blog.dripverse.org">Blog</a>
+                  </li>
                   {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
                     <a href="https://dripverse.org/careers/">Careers</a>
                   </li> */}
@@ -307,7 +310,7 @@ function Footer() {
                     <a href="https://dripverse.org/brand/">Brand Guidelines</a>
                   </li> */}
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-3267">
-                    <a href="https://dripverse.org/privacy/">Privacy Policy</a>
+                    <a href="https://dripverse.org/privacy">Privacy Policy</a>
                   </li>
                 </ul>
               </div>
