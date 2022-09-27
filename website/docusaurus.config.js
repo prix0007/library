@@ -7,7 +7,7 @@ module.exports = {
   url: "https://library.dripverse.org",
   baseUrl: "/",
   organizationName: "dripverse",
-  projectName: "docs",
+  projectName: "library",
   scripts: [
     "https://buttons.github.io/buttons.js",
     "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
@@ -75,7 +75,7 @@ module.exports = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: "DOCS",
+      title: "Library",
       logo: {
         alt: "DripVerse Logo",
         src: "img/logo.png",
