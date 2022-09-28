@@ -73,9 +73,9 @@ function Footer() {
         <div className="row">
           <div className="col md:w-1/4">
             <img
-              src="https://api.dripverse.org/static/assets/images/logo/logo-white.png"
+              src="https://api.dripverse.org/static/assets/images/logo/logo-text.png"
               className="locked"
-              width="91"
+              width="250"
               alt=""
             ></img>
             <ul className="list-reset text-24 font-black text-yellow mt-50">
