@@ -11,8 +11,6 @@ tag:
   - SmartNFT
   - DripVerse
 ---
-import {Contact} from "@site/components/featurelist"
-
 Author: [Kumar Anirudha](https://twitter.com/kranirudha)
 
 ### _SuperCharge your NFTs_
@@ -79,7 +77,3 @@ While the advantages are greater for the builders, the users or explorers will a
 
 # Conclusion
 Smart NFTs are the undoubtedly future of NFTs. And DripVerse Tools are here to nurture and grow the ecosystem.
-
----
-
-<Contact />

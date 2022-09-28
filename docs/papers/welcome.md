@@ -2,9 +2,9 @@
 id: welcome
 title: DripVerse Papers
 sidebar_label: Papers
-hide_table_of_contents: false
+hide_table_of_contents: true
 ---
-import {FeatureList, Column, Feature} from "@site/components/featurelist";
+import {FeatureList, Column, Feature, Contact} from "@site/components/featurelist";
 
 Explore our Papers
 
@@ -13,7 +13,5 @@ Explore our Papers
     <Feature url="/papers/litepaper" title="SmartNFT" subtitle="DripVerse Litepaper" image="guest-book.png" />
   </Column>
 </FeatureList>
-
----
 
 <Contact />
