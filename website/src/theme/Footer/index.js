@@ -292,9 +292,6 @@ function Footer() {
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
                     <a href="https://alpha.dripverse.org">Try it out</a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
-                    <a href="https://blog.dripverse.org">Blog</a>
-                  </li>
                   {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-124">
                     <a href="https://dripverse.org/careers/">Careers</a>
                   </li> */}

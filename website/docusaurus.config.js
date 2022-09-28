@@ -84,7 +84,7 @@ module.exports = {
       items: [
         {
           to: "/papers/welcome",
-          label: "📃 Litepaper",
+          label: "📃 Papers",
           position: "left",
         },
         {
