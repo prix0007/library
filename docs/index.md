@@ -3,7 +3,7 @@ id: welcome
 title: Welcome to DripVerse Library
 hide_table_of_contents: true
 ---
-import {FeatureList, Column, Feature} from "@site/components/featurelist"
+import {Contact} from "@site/components/featurelist"
 
 Welcome! This is the starting point for all the documentation in DripVerse.
 
@@ -27,18 +27,4 @@ Welcome! This is the starting point for all the documentation in DripVerse.
 
 <br/>
 
-<div className="container">
-  <div className="row">
-    <div className="col col--2">
-      <div className="avatar">
-        <img
-          className="avatar__photo"
-          src={require("@site/static/docs/assets/home/twitter.png").default} />
-        <div className="avatar__intro">
-          <div className="avatar__name">Twitter</div>
-          <small className="avatar__subtitle"><a href="https://twitter.com/0xDripVerse">@0xDripVerse</a></small>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<Contact />

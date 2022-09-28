@@ -1,12 +1,6 @@
-<br />
-<br />
-
 <p align="center">
 <img src="website/static/img/logo.png" width="240">
 </p>
-
-<br />
-<br />
 
 ## DripVerse Library - BUIDL CyberSpace
 
