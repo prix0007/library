@@ -38,7 +38,7 @@ module.exports = {
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: true,
-          editUrl: "https://github.com/dripverse/docs/edit/main/website",
+          editUrl: "https://github.com/dripverse/library/edit/main/website",
           path: "../docs",
           sidebarPath: "./sidebars.json",
           routeBasePath: "/",
