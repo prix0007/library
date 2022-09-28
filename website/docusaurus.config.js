@@ -35,7 +35,7 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
           showLastUpdateTime: true,
           breadcrumbs: true,
           editUrl: "https://github.com/dripverse/library/edit/main/website",
