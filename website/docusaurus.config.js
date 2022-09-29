@@ -88,6 +88,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "/concepts/welcome",
+          label: "📖 Concepts",
+          position: "left",
+        },
+        {
           href: "https://blog.dripverse.org",
           label: "Blog",
           position: "right",
