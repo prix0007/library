@@ -60,7 +60,7 @@ function Footer() {
   }
 
   return (
-    <footer className="relative pt-100 pb-40 md:pb-100 bg-black text-white mt-150">
+    <footer className="relative pb-40 text-white bg-black pt-100 md:pb-100 mt-150">
       <div className="absolute pin-t pin-r" style={{ maxWidth: "50vw" }}>
         <img
           src="/docs/assets/footer/distortion-footer.svg"
@@ -78,7 +78,7 @@ function Footer() {
               width="250"
               alt=""
             ></img>
-            <ul className="list-reset text-24 font-black text-yellow mt-50">
+            <ul className="font-black list-reset text-24 text-yellow mt-50">
               {/* <li>
                 <a
                   href="https://mydripversewallet.com/"
@@ -111,7 +111,7 @@ function Footer() {
             </ul>
           </div>
           <div className="col md:w-3/4 mt-50 md:mt-0" style={{ zIndex: "1" }}>
-            <ul className="list-reset flex flex-wrap -mx-20">
+            <ul className="flex flex-wrap -mx-20 list-reset">
               {/* <li className="mx-20">
                 <a
                   href="https://gov.dripverse.org"
@@ -221,12 +221,12 @@ function Footer() {
             </ul>
             <div className="row">
               <div className="col sm:w-1/3 mt-50">
-                <h2 className="text-24 font-black text-blue-light">
+                <h2 className="font-black text-24 text-blue-light">
                   Developers
                 </h2>
                 <ul
                   id="menu-developers-1"
-                  className="footer-menu list-reset mt-5 text-16 md:text-18"
+                  className="mt-5 footer-menu list-reset text-16 md:text-18"
                 >
                   {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-550">
                     <a href="https://dripverse.org/developers/">Overview</a>
@@ -247,12 +247,12 @@ function Footer() {
                 </ul>
               </div>
               {/* <div className="col sm:w-1/3 mt-50">
-                <h2 className="text-24 font-black text-blue-light">
+                <h2 className="font-black text-24 text-blue-light">
                   Community
                 </h2>
                 <ul
                   id="menu-community-1"
-                  className="footer-menu list-reset mt-5 text-16 md:text-18"
+                  className="mt-5 footer-menu list-reset text-16 md:text-18"
                 >
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-6804">
                     <a href="https://gov.dripverse.org/">Forum</a>
@@ -284,10 +284,10 @@ function Footer() {
                 </ul>
               </div> */}
               <div className="col sm:w-1/3 mt-50">
-                <h2 className="text-24 font-black text-blue-light">About</h2>
+                <h2 className="font-black text-24 text-blue-light">About</h2>
                 <ul
                   id="menu-about-1"
-                  className="footer-menu list-reset mt-5 text-16 md:text-18"
+                  className="mt-5 footer-menu list-reset text-16 md:text-18"
                 >
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-441">
                     <a href="https://alpha.dripverse.org">Try it out</a>
@@ -315,25 +315,30 @@ function Footer() {
           </div>
         </div>
 
-        {/* <p className="text-14 mt-50 md:mt-100">
-          Copyright &copy;
+        <p className="text-16 mt-50 md:mt-100">
+          {/* Copyright &copy;
           {new Date().getFullYear()}{" "}
           <a href="https://dripverse.org" className="hover:text-yellow">
             DripVerse
           </a>
           <span className="mx-10">|</span>All rights reserved
           <span className="mx-10">|</span>
-          <a href="mailto:hello@dripverse.org" className="hover:text-yellow">
+          <a href="mailto:hello@dripverse.org" className="hover:text-green">
             hello@dripverse.org
           </a>
           <span className="mx-10">|</span>
           <a
             href="https://dripverse.org/privacy/"
-            className="hover:text-yellow"
+            className="hover:text-blue"
           >
             Privacy Policy
+          </a> */}
+          {/* <span className="mx-10">|</span> */}
+          Built using{" "}
+          <a href="https://docusaurus.io/" className="hover:text-yellow">
+            Docusaurus
           </a>
-        </p> */}
+        </p>
       </div>
     </footer>
   );
