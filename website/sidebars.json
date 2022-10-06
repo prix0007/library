@@ -1,5 +1,10 @@
 {
     "concepts": [
-        "concepts/welcome"
+        "concepts/welcome",
+        {
+            "Vision": [
+                "concepts/vision/pledge"
+            ]
+        }
     ]
 }
