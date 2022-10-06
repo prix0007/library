@@ -48,8 +48,8 @@ module.exports = {
           priority: 0.5,
         },
         googleAnalytics: {
-          trackingID: "G-333957610",
-          anonymizeIP: true,
+          trackingID: "G-70BTQR5V72",
+          anonymizeIP: false,
         },
         blog: {},
         theme: {
