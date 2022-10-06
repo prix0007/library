@@ -49,7 +49,7 @@ module.exports = {
         },
         googleAnalytics: {
           trackingID: "G-70BTQR5V72",
-          anonymizeIP: false,
+          anonymizeIP: true,
         },
         blog: {},
         theme: {
