@@ -6,5 +6,13 @@
                 "concepts/vision/pledge"
             ]
         }
+    ],
+    "sdk": [
+        "sdk/welcome",
+        {
+            "JS": [
+                "sdk/js/introduction"
+            ]
+        }
     ]
 }
