@@ -3,7 +3,8 @@
         "concepts/welcome",
         {
             "Vision": [
-                "concepts/vision/pledge"
+                "concepts/vision/pledge",
+                "concepts/vision/turn"
             ]
         }
     ]
