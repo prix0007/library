@@ -5,6 +5,16 @@
             "Vision": [
                 "concepts/vision/pledge"
             ]
+        },
+        {
+            "Utility": [
+                "concepts/utility/introduction",
+                {
+                    "Gatekeeper": [
+                        "concepts/utility/gatekeeper/welcome"
+                    ]
+                }
+            ]
         }
     ]
 }
