@@ -11,7 +11,8 @@
                 "concepts/utility/introduction",
                 {
                     "Gatekeeper": [
-                        "concepts/utility/gatekeeper/welcome"
+                        "concepts/utility/gatekeeper/welcome",
+                        "concepts/utility/gatekeeper/setup"
                     ]
                 }
             ]
