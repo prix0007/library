@@ -13,7 +13,11 @@
         "sdk/welcome",
         {
             "JS": [
-                "sdk/js/introduction"
+                "sdk/js/introduction",
+                "sdk/js/setup",
+                "sdk/js/init",
+                "sdk/js/status",
+                "sdk/js/verifyUtility"
             ]
         }
     ]

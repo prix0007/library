@@ -1,0 +1,22 @@
+---
+id: verifyUtility
+title: Verify Utility Access
+sidebar_label: Verify Access
+hide_table_of_contents: false
+---
+
+# Verify Utility Access
+Mostly used in Token Gating and with Gatekeeper Utility. However, there can be many more use-cases not covered by us currently. If you found such a use-case and we would love to learn about it. Please reach out to us at [hello@dripverse.org](mailto:hello@dripverse.org).
+
+We are checking if the logged in user has access to the particular utility in question. We need to pass user address and utlityId, which we can get values of from the Utility Detail page, from the NFT Detail page.
+
+```js
+drip.verifyUtility('USER_ADDRESS', 'UTILITY_ID')
+```
+
+So, it'd look something like:
+```js
+drip.verifyUtility('0x48e28C1681BBb92a2E5874113bc740cC11A0FD7a', '1')
+```
+
+The response is again `true` or `false` only.
