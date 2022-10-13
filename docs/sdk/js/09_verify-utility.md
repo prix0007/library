@@ -13,6 +13,7 @@ We are checking if the logged in user has access to the particular utility in qu
 ```js
 await drip.verifyUtility('USER_ADDRESS', 'UTILITY_ID')
 ```
+`USER_ADDRESS` is the address from which your user has logged in to DripVerse.
 
 So, it'd look something like:
 ```js
