@@ -11,11 +11,11 @@ Let's initiate library in your project, depending on if you're following ES6 sta
 ## Import
 
 ```js
-import DripSDK from 'dripverse'
+import DripSDK from 'dripverse';
 ```
 or
 ```js
-const DripSDK = require('dripverse')
+const DripSDK = require('dripverse');
 ```
 
 ## Initialise
