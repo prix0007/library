@@ -7,6 +7,19 @@
                 "concepts/vision/turn",
                 "concepts/vision/prestige"
             ]
+        },
+        "concepts/mission",
+        {
+            "Utility": [
+                "concepts/utility/introduction",
+                {
+                    "Gatekeeper": [
+                        "concepts/utility/gatekeeper/welcome",
+                        "concepts/utility/gatekeeper/setup",
+                        "concepts/utility/gatekeeper/sdk"
+                    ]
+                }
+            ]
         }
     ],
     "sdk": [
