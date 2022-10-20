@@ -7083,6 +7083,9 @@ body.paper-mobile-nav-open {
 .text-discord {
   color: #7289da;
 }
+.text-reddit {
+  color: #ff4500;
+}
 .text-discourse {
   color: #00c08b;
 }
@@ -7173,6 +7176,9 @@ body.paper-mobile-nav-open {
 .hover\:text-discord:hover {
   color: #7289da;
 }
+.hover\:text-reddit:hover {
+  color: #ff4500;
+}
 .hover\:text-discourse:hover {
   color: #00c08b;
 }
@@ -7262,6 +7268,9 @@ body.paper-mobile-nav-open {
 }
 .group:hover .group-hover\:text-discord {
   color: #7289da;
+}
+.group:hover .group-hover\:text-reddit {
+  color: #ff4500;
 }
 .group:hover .group-hover\:text-discourse {
   color: #00c08b;
