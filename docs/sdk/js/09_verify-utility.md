@@ -6,7 +6,11 @@ hide_table_of_contents: false
 ---
 
 # Verify Utility Access
-Mostly used in Token Gating and with Gatekeeper Utility. However, there can be many more use-cases not covered by us currently. If you found such a use-case and we would love to learn about it. Please reach out to us at [hello@dripverse.org](mailto:hello@dripverse.org).
+Mostly used in Token Gating and with Gatekeeper Utility. However, there can be many more use-cases not covered by us currently. 
+
+:::success
+If you found such a use-case and we would love to learn about it. Please reach out to us at [hello@dripverse.org](mailto:hello@dripverse.org).
+:::
 
 We are checking if the logged in user has access to the particular utility in question. We need to pass user address and utlityId, which we can get values of from the Utility Detail page, from the NFT Detail page.
 
