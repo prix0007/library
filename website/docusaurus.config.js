@@ -66,6 +66,13 @@ module.exports = {
         anonymizeIP: true,
       },
     ],
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-70BTQR5V72",
+        anonymizeIP: true,
+      },
+    ],
   ],
   themeConfig: {
     prism: {
