@@ -47,10 +47,10 @@ module.exports = {
           changefreq: "weekly",
           priority: 0.5,
         },
-        googleAnalytics: {
-          trackingID: "G-70BTQR5V72",
-          anonymizeIP: true,
-        },
+        // googleAnalytics: {
+        //   trackingID: "G-70BTQR5V72",
+        //   anonymizeIP: true,
+        // },
         blog: {},
         theme: {
           customCss: "/src/css/customTheme.css",
@@ -58,7 +58,15 @@ module.exports = {
       },
     ],
   ],
-  plugins: [],
+  plugins: [
+    [
+      "@docusaurus/plugin-google-analytics",
+      {
+        trackingID: "G-70BTQR5V72",
+        anonymizeIP: true,
+      },
+    ],
+  ],
   themeConfig: {
     prism: {
       additionalLanguages: [
