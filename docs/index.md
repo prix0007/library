@@ -10,7 +10,7 @@ Welcome! This is the starting point for all the documentation in DripVerse.
 <div className="container">
   <div className="row">
     <div className="col col--12">
-      <a href="/papers/welcome">
+      <a href="/papers/litepaper">
         <div className="card">
           <div className="card__image">
             <img src={require("@site/static/docs/assets/welcome-pages/network.png").default} alt="Litepaper" />
