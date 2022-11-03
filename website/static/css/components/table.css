@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+.table_common {
+  width: 100%;
+}
+.table_common th {
+  padding: 8px;
+  font-size: 1.3rem;
+  letter-spacing: 0.05em;
+}
+.table_common td {
+  padding: 6px 12px;
+  font-size: 1.2rem;
+}
+
+.table_common tbody tr:nth-of-type(1) {
+  background: #89dd94;
+}
+
+[data-theme="dark"] .table_common tbody tr:nth-of-type(1) {
+  background: #2a5b30;
+}

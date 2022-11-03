@@ -4,12 +4,17 @@ title: Versioning
 sidebar_label: Versioning
 hide_table_of_contents: true
 ---
+import {VersionHistory} from "@site/components/versioning"
 
 Versioning is used to define various stages in development while also marking the progress. From minor to major changes can be easily followed throughout development process. 
 We use versioning at the following places:
 - API
 - Libraries
 - Web App
+
+---
+
+<VersionHistory />
 
 ---
 
@@ -22,6 +27,9 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 - **PATCH** version when you make backwards compatible bug fixes
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+
+So, in short, it looks something like:
+![Semantic Versioning](/img/concepts/v1.png "Semantic Versioning")
 
 ### More on SemVer(Semantic Versioning Specification):
 
@@ -72,3 +80,13 @@ Additional labels for pre-release and build metadata are available as extensions
 While the API versioning follows a small variation of Semantic Versioning.
 The APIs are prefixed semantic version with a "v" to indicate it is a version number.
 Abbreviating "version" as "v" is often seen with version control. Example: git tag v1.2.3 -m "Release version 1.2.3", in which case "v1.2.3" is a tag name and the semantic version is "1.2.3".
+
+So, it'd look something like:
+<img src="/img/concepts/apiv.png" data-canonical-src="https://library.dripverse.org/img/concepts/apiv.png" width="50%" />
+
+---
+
+# Maintenance
+
+While, we would want to support all past versions, sometimes it's critical to leave old habits due to security, advanced use, new standard/feature introduction and so on reasons. This is commonly followed practice of development process.
+![Maintenance Flow](/img/concepts/maintenance.jpg "Maintenance Flow")
