@@ -1,22 +1,54 @@
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+:root {
+  --upcoming-background-light: #0052ff4d;
+  --upcoming-background-dark: #0086ff4d;
+  --active-background-light: #15dd304d;
+  --active-background-dark: #7cfa8c4d;
+  --deprecated-background-light: #0000004d;
+  --deprecated-background-dark: #5f5f5f4d;
+}
 
 .table_common {
   width: 100%;
 }
+.table_common thead {
+  background-color: inherit;
+}
+.table_common th,
+.table_common td {
+  border: none;
+}
 .table_common th {
-  padding: 8px;
-  font-size: 1.3rem;
-  letter-spacing: 0.05em;
+  padding: 8px 15px;
+  font-size: 1.2rem;
+  letter-spacing: 0.1em;
 }
 .table_common td {
   padding: 6px 12px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  /* border: 1px solid white; */
+  /* border-radius: 10px; */
 }
 
-.table_common tbody tr:nth-of-type(1) {
-  background: #89dd94;
+.table_common tbody .active {
+  background: var(--active-background-light);
 }
 
-[data-theme="dark"] .table_common tbody tr:nth-of-type(1) {
-  background: #2a5b30;
+[data-theme="dark"] .table_common tbody .active {
+  background: var(--active-background-dark);
+}
+
+.table_common tbody .upcoming {
+  background: var(--upcoming-background-light);
+}
+
+[data-theme="dark"] .table_common tbody .upcoming {
+  background: var(--upcoming-background-dark);
+}
+
+.table_common tbody .deprecated {
+  background: var(--deprecated-background-light);
+}
+
+[data-theme="dark"] .table_common tbody .deprecated {
+  background: var(--deprecated-background-dark);
 }

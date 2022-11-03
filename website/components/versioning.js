@@ -1,13 +1,42 @@
 import React from "react";
 import "/css/components/table.css";
 
+const titles = [
+  "Version",
+  "Release Name",
+  "Release Date",
+  "End of Life",
+  "Release Lead",
+  "Release Notes",
+];
+const versions = [
+  {
+    id: "1",
+    items: [
+      "0.2",
+      "Init",
+      "2022-12-05",
+      "",
+      "Kumar Anirudha",
+      "Release Notes Link",
+    ],
+    properties: {
+      authorGithub: "anistark",
+      state: "upcoming",
+      releaseLink: "#",
+    },
+  },
+];
+
 const TableHeadItem = ({ item }) => <th>{item}</th>;
 
 const TableRow = ({ data }) => {
   return (
-    <tr>
-      {data.map((item, index) => (
-        <td key={index}>{item}</td>
+    <tr className={data.properties.state}>
+      {data.items.map((item, index) => (
+        <td key={index}>
+          <strong>{item}</strong>
+        </td>
       ))}
     </tr>
   );
@@ -25,7 +54,7 @@ const Table = ({ theadData, tbodyData, customClass }) => {
       </thead>
       <tbody>
         {tbodyData.map((body) => {
-          return <TableRow key={body.id} data={body.items} />;
+          return <TableRow key={body.id} data={body} />;
         })}
       </tbody>
     </table>
@@ -34,18 +63,11 @@ const Table = ({ theadData, tbodyData, customClass }) => {
 
 // Get Version History and display in table.
 export function VersionHistory() {
-  const theadData = ["Version", "Release Name", "Release Date"];
-  const tbodyData = [
-    {
-      id: "1",
-      items: ["0.2", "Init", "2022-12-05"],
-    },
-  ];
   return (
     <>
       <Table
-        theadData={theadData}
-        tbodyData={tbodyData}
+        theadData={titles}
+        tbodyData={versions}
         customClass="table_common"
       />
     </>
