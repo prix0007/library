@@ -1,26 +1,32 @@
 {
-    "concepts": [
-        "concepts/welcome",
+    "guide": [
+        "guide/welcome",
         {
             "Vision": [
-                "concepts/vision/pledge",
-                "concepts/vision/turn",
-                "concepts/vision/prestige"
+                "guide/vision/pledge",
+                "guide/vision/turn",
+                "guide/vision/prestige"
             ]
         },
-        "concepts/mission",
+        "guide/mission",
+        {
+            "NFT": [
+                "guide/nft/about"
+            ]
+        },
         {
             "Utility": [
-                "concepts/utility/introduction",
+                "guide/utility/introduction",
                 {
                     "Gatekeeper": [
-                        "concepts/utility/gatekeeper/welcome",
-                        "concepts/utility/gatekeeper/setup",
-                        "concepts/utility/gatekeeper/sdk"
+                        "guide/utility/gatekeeper/welcome",
+                        "guide/utility/gatekeeper/setup",
+                        "guide/utility/gatekeeper/sdk"
                     ]
                 }
             ]
-        }
+        },
+        "guide/versioning"
     ],
     "sdk": [
         "sdk/welcome",

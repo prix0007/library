@@ -1,7 +1,7 @@
 ---
 id: welcome
 title: Gatekeeper Utility
-sidebar_label: Getting Started
+sidebar_label: About Gatekeeper
 hide_table_of_contents: true
 ---
 

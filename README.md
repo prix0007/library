@@ -24,3 +24,36 @@ If you found a broken link from a Google search, please request to remove it fro
 ### Check for broken links before pushing
 
 Contributors, please consider checking for broken links executing the file `test-links.sh` before pushing to this repo so our CI doesn't fail, forcing someone (maybe you) to fix broken links before merging.
+
+#### Admonitions
+Example:
+
+:::note
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::tip
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::info
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::caution
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+:::danger
+
+Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+
+:::
