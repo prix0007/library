@@ -2,7 +2,7 @@
 id: versioning
 title: Versioning
 sidebar_label: Versioning
-hide_table_of_contents: true
+hide_table_of_contents: false
 ---
 import {VersionHistory} from "@site/components/versioning"
 
@@ -12,13 +12,9 @@ We use versioning at the following places:
 - Libraries
 - Web App
 
----
-
-# Version History
+## Version History
 <br />
 <VersionHistory />
-
----
 
 For most parts, we tend to follow [Semantic Versioning](https://semver.org/#semantic-versioning-200).
 
@@ -33,7 +29,7 @@ Additional labels for pre-release and build metadata are available as extensions
 So, in short, it looks something like:
 ![Semantic Versioning](/img/guide/v1.png "Semantic Versioning")
 
-### More on SemVer(Semantic Versioning Specification):
+## More on SemVer(Semantic Versioning Specification):
 
 - A normal version number MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
@@ -77,7 +73,7 @@ So, in short, it looks something like:
 
         Example: 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-alpha.beta < 1.0.0-beta < 1.0.0-beta.2 < 1.0.0-beta.11 < 1.0.0-rc.1 < 1.0.0.
 
----
+### API Versioning
 
 While the API versioning follows a small variation of Semantic Versioning.
 The APIs are prefixed semantic version with a "v" to indicate it is a version number.
@@ -86,9 +82,11 @@ Abbreviating "version" as "v" is often seen with version control. Example: git t
 So, it'd look something like:
 <img src="/img/guide/apiv.png" data-canonical-src="https://library.dripverse.org/img/guide/apiv.png" width="50%" />
 
----
+However, APIs are broadly mentioned in the route itself with only major version considerations. The SDK however might be tagged to a specific minor or even patch depending on scenario. The APIs are automatically switched to the latest version available.<br />
+Example:
+`/v1/...`, `/v2/...`, `/v3/...`, and so on...
 
-# Maintenance
+## Maintenance
 
 While, we would want to support all past versions, sometimes it's critical to leave old habits due to security, advanced use, new standard/feature introduction and so on reasons. This is commonly followed practice of development process.
 ![Maintenance Flow](/img/guide/maintenance.jpg "Maintenance Flow")
