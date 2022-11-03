@@ -13,12 +13,12 @@ const versions = [
   {
     id: "1",
     items: [
-      "0.2",
+      "0.2.0",
       "Init",
       "2022-12-05",
       "",
       "Kumar Anirudha",
-      "Release Notes Link",
+      "Release Page Link",
     ],
     properties: {
       authorGithub: "anistark",

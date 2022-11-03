@@ -14,6 +14,8 @@ We use versioning at the following places:
 
 ---
 
+# Version History
+<br />
 <VersionHistory />
 
 ---
