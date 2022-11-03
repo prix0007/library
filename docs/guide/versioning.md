@@ -31,7 +31,7 @@ Given a version number **MAJOR.MINOR.PATCH**, increment the:
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
 So, in short, it looks something like:
-![Semantic Versioning](/img/concepts/v1.png "Semantic Versioning")
+![Semantic Versioning](/img/guide/v1.png "Semantic Versioning")
 
 ### More on SemVer(Semantic Versioning Specification):
 
@@ -84,11 +84,11 @@ The APIs are prefixed semantic version with a "v" to indicate it is a version nu
 Abbreviating "version" as "v" is often seen with version control. Example: git tag v1.2.3 -m "Release version 1.2.3", in which case "v1.2.3" is a tag name and the semantic version is "1.2.3".
 
 So, it'd look something like:
-<img src="/img/concepts/apiv.png" data-canonical-src="https://library.dripverse.org/img/concepts/apiv.png" width="50%" />
+<img src="/img/guide/apiv.png" data-canonical-src="https://library.dripverse.org/img/guide/apiv.png" width="50%" />
 
 ---
 
 # Maintenance
 
 While, we would want to support all past versions, sometimes it's critical to leave old habits due to security, advanced use, new standard/feature introduction and so on reasons. This is commonly followed practice of development process.
-![Maintenance Flow](/img/concepts/maintenance.jpg "Maintenance Flow")
+![Maintenance Flow](/img/guide/maintenance.jpg "Maintenance Flow")

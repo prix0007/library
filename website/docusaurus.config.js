@@ -103,7 +103,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "/concepts/welcome",
+          to: "/guide/welcome",
           label: "📖 Guide",
           position: "left",
         },
