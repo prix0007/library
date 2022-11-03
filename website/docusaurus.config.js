@@ -104,7 +104,7 @@ module.exports = {
         },
         {
           to: "/concepts/welcome",
-          label: "📖 Concepts",
+          label: "📖 Guide",
           position: "left",
         },
         {
