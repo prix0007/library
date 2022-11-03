@@ -8,6 +8,7 @@ const titles = [
   "End of Life",
   "Release Lead",
   "Release Notes",
+  "Status",
 ];
 const versions = [
   {
@@ -15,10 +16,11 @@ const versions = [
     items: [
       "0.2.0",
       "Init",
-      "2022-12-05",
+      "",
       "",
       "Kumar Anirudha",
       "Release Page Link",
+      "Coming Soon...",
     ],
     properties: {
       authorGithub: "anistark",

@@ -3,6 +3,8 @@
   --upcoming-background-dark: #0086ff4d;
   --active-background-light: #15dd304d;
   --active-background-dark: #7cfa8c4d;
+  --stable-background-light: #1bcd8f4d;
+  --stable-background-dark: #12ff974d;
   --deprecated-background-light: #0000004d;
   --deprecated-background-dark: #5f5f5f4d;
 }
@@ -29,6 +31,14 @@
   /* border-radius: 10px; */
 }
 
+.table_common tbody .upcoming {
+  background: var(--upcoming-background-light);
+}
+
+[data-theme="dark"] .table_common tbody .upcoming {
+  background: var(--upcoming-background-dark);
+}
+
 .table_common tbody .active {
   background: var(--active-background-light);
 }
@@ -37,12 +47,12 @@
   background: var(--active-background-dark);
 }
 
-.table_common tbody .upcoming {
-  background: var(--upcoming-background-light);
+.table_common tbody .stable {
+  background: var(--stable-background-light);
 }
 
-[data-theme="dark"] .table_common tbody .upcoming {
-  background: var(--upcoming-background-dark);
+[data-theme="dark"] .table_common tbody .stable {
+  background: var(--stable-background-dark);
 }
 
 .table_common tbody .deprecated {
