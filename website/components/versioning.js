@@ -13,19 +13,13 @@ const titles = [
 const versions = [
   {
     id: "1",
-    items: [
-      "0.2.0",
-      "Init",
-      "",
-      "",
-      "Kumar Anirudha",
-      "Release Page Link",
-      "Coming Soon...",
-    ],
+    items: ["1.0.0", "Init", "", "", "Ani", "Coming Soon...", "Coming Soon..."],
     properties: {
-      authorGithub: "anistark",
+      links: {
+        4: "https://github.com/anistark",
+        5: "#",
+      },
       state: "upcoming",
-      releaseLink: "#",
     },
   },
 ];
@@ -37,7 +31,13 @@ const TableRow = ({ data }) => {
     <tr className={data.properties.state}>
       {data.items.map((item, index) => (
         <td key={index}>
-          <strong>{item}</strong>
+          {[4].includes(index) ? (
+            <a href={data.properties.links[index]}>
+              <strong>{item}</strong>
+            </a>
+          ) : (
+            <strong>{item}</strong>
+          )}
         </td>
       ))}
     </tr>
