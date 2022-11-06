@@ -12,4 +12,4 @@ This function is used to check the state of DripVerse service and availability t
 await drip.status();
 ```
 
-You should get an output indicating if the service is up and running and reachable. If you for `true`, our mission is accomplished. Let's continue.
+You should get an output indicating if the service is up and running and reachable. If you receive `true`, our mission is accomplished. Let's continue.

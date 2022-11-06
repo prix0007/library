@@ -34,7 +34,7 @@ npm list
 If you can see something like this below, we are good to go:
 
 ```bash
-└── dripverse@1.0.0
+└── dripverse@x.x.x
 ```
 
 Please check the latest version as we keep updating the library pretty often as we add new features, fixes and enhancements.
@@ -44,12 +44,12 @@ You can find the version details here:
 
 You can use [`ncu`](https://www.npmjs.com/package/npm-check-updates) to look for newer version availability: `ncu -u`
 
-Of you can update the package version on `package.json` directly:
+Or you can update the package version on `package.json` directly:
 
 ```json
 "dependencies": {
     ...,
-    "dripverse": "2.0.0",
+    "dripverse": "1.0.0",
     ...
 }
 ```

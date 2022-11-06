@@ -7,7 +7,7 @@ hide_table_of_contents: false
 
 # Getting Started
 
-The JavaScript SDK handles communications between your app and DripVerse.
+The JavaScript SDK handles communications between your JavaScript App and DripVerse.
 
 The dripverse.js library is free to use and will be open-source soon. Start integrating it from the Setup page.
 
