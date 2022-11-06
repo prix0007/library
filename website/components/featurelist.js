@@ -68,3 +68,31 @@ export function Contact({}) {
     </>
   );
 }
+
+export function ReleaseHeader() {
+  return (
+    <>
+      <p>
+        All notable changes to this project will be documented in this file.
+        <br />
+        The format is based on{" "}
+        <a
+          href="https://keepachangelog.com/en/1.0.0/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Keep a Changelog
+        </a>
+        , and this project adheres to{" "}
+        <a
+          href="https://keepachangelog.com/en/1.0.0/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Semantic Versioning
+        </a>
+        .
+      </p>
+    </>
+  );
+}

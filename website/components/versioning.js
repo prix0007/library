@@ -8,22 +8,18 @@ const titles = [
   "End of Life",
   "Release Lead",
   "Release Notes",
+  "Status",
 ];
 const versions = [
   {
     id: "1",
-    items: [
-      "0.2.0",
-      "Init",
-      "2022-12-05",
-      "",
-      "Kumar Anirudha",
-      "Release Page Link",
-    ],
+    items: ["0.5.0", "Alpha", "", "", "Ani", "Upcoming", ""],
     properties: {
-      authorGithub: "anistark",
+      links: {
+        4: "https://github.com/anistark",
+        5: "/guide/release/alpha",
+      },
       state: "upcoming",
-      releaseLink: "#",
     },
   },
 ];
@@ -35,7 +31,13 @@ const TableRow = ({ data }) => {
     <tr className={data.properties.state}>
       {data.items.map((item, index) => (
         <td key={index}>
-          <strong>{item}</strong>
+          {[4, 5].includes(index) ? (
+            <a href={data.properties.links[index]}>
+              <strong>{item}</strong>
+            </a>
+          ) : (
+            <strong>{item}</strong>
+          )}
         </td>
       ))}
     </tr>
@@ -62,7 +64,7 @@ const Table = ({ theadData, tbodyData, customClass }) => {
 };
 
 // Get Version History and display in table.
-export function VersionHistory() {
+export function Releases() {
   return (
     <>
       <Table
