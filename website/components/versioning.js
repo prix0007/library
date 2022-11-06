@@ -13,11 +13,11 @@ const titles = [
 const versions = [
   {
     id: "1",
-    items: ["1.0.0", "Init", "", "", "Ani", "Coming Soon...", "Coming Soon..."],
+    items: ["0.5.0", "Alpha", "", "", "Ani", "Upcoming", ""],
     properties: {
       links: {
         4: "https://github.com/anistark",
-        5: "#",
+        5: "/guide/release/alpha",
       },
       state: "upcoming",
     },
@@ -31,7 +31,7 @@ const TableRow = ({ data }) => {
     <tr className={data.properties.state}>
       {data.items.map((item, index) => (
         <td key={index}>
-          {[4].includes(index) ? (
+          {[4, 5].includes(index) ? (
             <a href={data.properties.links[index]}>
               <strong>{item}</strong>
             </a>
@@ -64,7 +64,7 @@ const Table = ({ theadData, tbodyData, customClass }) => {
 };
 
 // Get Version History and display in table.
-export function VersionHistory() {
+export function Releases() {
   return (
     <>
       <Table

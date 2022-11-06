@@ -4,7 +4,7 @@ title: Versioning
 sidebar_label: Versioning
 hide_table_of_contents: false
 ---
-import {VersionHistory} from "@site/components/versioning"
+import {Releases} from "@site/components/versioning"
 
 Versioning is used to define various stages in development while also marking the progress. From minor to major changes can be easily followed throughout development process. 
 We use versioning at the following places:
@@ -12,9 +12,9 @@ We use versioning at the following places:
 - Libraries
 - Web App
 
-## Version History
+## Releases
 <br />
-<VersionHistory />
+<Releases />
 
 For most parts, we tend to follow [Semantic Versioning](https://semver.org/#semantic-versioning-200).
 
@@ -85,6 +85,28 @@ So, it'd look something like:
 However, APIs are broadly mentioned in the route itself with only major version considerations. The SDK however might be tagged to a specific minor or even patch depending on scenario. The APIs are automatically switched to the latest version available.<br />
 Example:
 `/v1/...`, `/v2/...`, `/v3/...`, and so on...
+
+## Changelog
+We are following [Keep a Changelog](https://keepachangelog.com) as a convention.
+A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.
+To make it easier for users and contributors to see precisely what notable changes have been made between each release (or version) of the project.
+
+### Guiding Principles
+- Changelogs are for humans, not machines.
+- There should be an entry for every single version.
+- The same types of changes should be grouped.
+- Versions and sections should be linkable.
+- The latest version comes first.
+- The release date of each version is displayed.
+- Mention whether you follow Semantic Versioning.
+
+### Types of changes
+- Added for new features.
+- Changed for changes in existing functionality.
+- Deprecated for soon-to-be removed features.
+- Removed for now removed features.
+- Fixed for any bug fixes.
+- Security in case of vulnerabilities.
 
 ## Maintenance
 

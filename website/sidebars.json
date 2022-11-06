@@ -26,6 +26,15 @@
                 }
             ]
         },
-        "guide/versioning"
+        "guide/versioning",
+        {
+            "Releases": [
+                {
+                    "Alpha": [
+                        "guide/release/alpha"
+                    ]
+                }
+            ]
+        }
     ]
 }
