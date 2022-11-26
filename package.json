@@ -1,8 +1,25 @@
 {
+  "name": "library",
+  "version": "0.0.1",
+  "description": "Docs of, for and by DripVerse",
   "scripts": {
     "test": "cd ./website && npm run test"
   },
   "dependencies": {
     "@docusaurus/plugin-google-gtag": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DripVerse/library.git"
+  },
+  "keywords": ["library", "documentation", "docs", "DripVerse", "Cyberspace", "Metaverse", "NFT"],
+  "license" : "Apache-2.0",
+  "homepage": "https://library.dripverse.org",
+  "bugs": {
+    "url" : "https://github.com/DripVerse/library/issues",
+    "email" : "support@dripverse.org"
+  },
+  "engines": {
+    "node": ">=16.10.0"
   }
 }
