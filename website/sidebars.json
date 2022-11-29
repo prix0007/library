@@ -45,6 +45,7 @@
                 "sdk/js/setup",
                 "sdk/js/init",
                 "sdk/js/status",
+                "sdk/js/custodial_mint",
                 "sdk/js/verifyUtility"
             ]
         }
