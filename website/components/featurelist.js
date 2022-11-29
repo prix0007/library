@@ -44,7 +44,7 @@ export function Feature({ image, title, subtitle, url }) {
 export function Contact({}) {
   return (
     <>
-      <hr class="subsection" />
+      <hr className="subsection" />
       <div className="container">
         <div className="row">
           <div className="col col--2">
