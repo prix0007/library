@@ -57,3 +57,10 @@ Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
 
 :::
+
+## Setup 
+
+Needs node v18 or above.
+
+1. `cd website`
+2. `npm i --legacy-peer-deps`
