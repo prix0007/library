@@ -9,16 +9,11 @@ hide_table_of_contents: false
 
 This function is used to mint a new NFT token for your image without the hassle of getting any token before.
 
-:::success
-If you found such a use-case and we would love to learn about it. Please reach out to us at [hello@dripverse.org](mailto:hello@dripverse.org).
-:::
-
 ### Pre-requisites
 
 You need to have:
 
-- Your `Twitter Username` or `EmailId`, for which you have access to.
-- Your Image file `locally` stored
+- Your Image file path.
 
 ### Let's Mint
 
@@ -29,17 +24,13 @@ let mintData = {
   filePath: "PATH_TO_YOUR_IMAGE_FILE",
   name: "NFT Name",
   description: "NFT Description",
-  networkId: 2,
-};
-let userData = {
-  social: {
-    email: "",
-    twitter: {
-      username: "0xDripVerse",
-    },
-  },
+  networkId: 2
 };
 ```
+
+Optional:
+- `description`
+- `networkId` (_default 2_)
 
 Now to mint you new NFT, simply call `drip.mint`.
 
@@ -48,8 +39,7 @@ let mintRes = await drip.mint(mintData, userData);
 console.log("mintRes:", mintRes);
 ```
 
-You should get an output indicating the `nftId` which you can claim on dripverse. The `mintRes` should give a response as follows.
-
+You should get an output indicating the `nftId`. The `mintRes` above should give a response as follows:
 ```js
 {
   id: 28,
@@ -57,9 +47,3 @@ You should get an output indicating the `nftId` which you can claim on dripverse
   tokenId: 41
 }
 ```
-
-In order to claim you newly `nftId` to your address, you can goto `https://alpha.dripverse.org/nft/NFT_ID_YOU_RECEIVED` and claim it there.
-
-:::success
-Your NFT is minted successfully.
-:::
