@@ -10,7 +10,8 @@ Explore our Papers
 
 <FeatureList>
   <Column title="Litepaper">
-    <Feature url="/papers/litepaper" title="SmartNFT" subtitle="DripVerse Litepaper" image="guest-book.png" />
+    <Feature url="/papers/litepaper" title="DripVerse Litepaper" subtitle="DripVerse Protocol Litepaper" image="whitepaper.png" />
+    <Feature url="/papers/smartnfts" title="Smart NFT" subtitle="Smart NFT Litepaper" image="paper-book.png" />
   </Column>
 </FeatureList>
 

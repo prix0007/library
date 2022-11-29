@@ -1,7 +1,7 @@
 ---
-id: litepaper
-title: DripVerse Protocol
-sidebar_label: Litepaper
+id: smartnfts
+title: Smart NFT (DripVerse v1.0.0)
+sidebar_label: Smart NFTs
 hide_table_of_contents: false
 category:
   - Litepaper
@@ -10,21 +10,23 @@ tag:
   - NFT
   - SmartNFT
   - DripVerse
-  - DripVerse Protocol
-  - Web3
 ---
 Author: [Kumar Anirudha](https://twitter.com/kranirudha)
 
-### _Powering the Cyberspace_
+### _SuperCharge your NFTs_
 
 ## Abstract
-An open web protocol for the decentralised web3 ecosystem. Driving the mainstream adoption is the core to any technology making it. DripVerse Protocol will enable dev tooling with interoperable assets supported by a no-code UI platform as a start to the advent of the open Metaverse OS.
+NFTs are awesome but it's incomplete as it is right now. PFP NFTs can only be used in so many cases. The future lies in adding utility to NFTs. In this paper we will discuss the limitations of current NFT ecosystem and how our platform can add power to your current NFTs as well as make it easier to develop, integrate and use NFTs as integrations to various platforms.
 
-# Summary
+## Introduction
+In recent years, we've seen an enormous increase in NFTs and the creator communities built around it. The usual idea of an NFT would come from creating a digital twin of a physical object or artwork that can be uniquely identified and marked ownership of in a decentralised ecosystem. The value of an NFT lies in the uniqueness and rarity of it as well as how the market values it.
+Some projects have tried incorporating NFTs in their regular usage to add "utility" over these NFTs to provide actionable value to the end user. However, these are either utility as a service model or specific industries just waking up to the new value found in utility usage of NFTs.
 
+# Summary of Problem
+The lack of value beyond what the market determines for PGP(Pretty Good Privacy) NFTs is a dead end. Presently, the only reason anybody would mint NFT would be, to place it on a market and trade it so they can earn out of it. For any new artists, this means large scale marketing and promotional activities. But once someone acquire such NFTs, there is not much that can be done with it other than hoping that the value of it rises over time given the rarity of it and hopefully re-list at a later stage on some marketplace. Even when we have some NFTs on our wallet. There's really not much to do with it. So, what is the added value to it apart from any other fungible tokens?
 
 # The Solution
-
+Here we should get aquainted with what DripVerse is all about. However, to grasp the depth to it, we need to be able to define what we are solving with it as well.
 
 ## Adding Utility to NFTs
 We are starting to see some artists and celebrities coming up with their own NFTs, which provides access to exclusive content, events and deals in respect to the artist who's NFT we might have acquired. This is a great step towards adding utility over PGP NFTs and in turn adds additional value to it. Of course, these can still be traded over any marketplaces. There is also real world objects which are connecting with digital twins using NFTs which provides access to the same digital object in a Metaverse. Even some events and concerts have started adding NFT tickets, which adds further actionable value to the NFT. There are various industries pushing added value to the NFT which is brings us to the next upgrade over NFT, also sometimes called as NFT2.0 or Smart NFTs.
@@ -63,6 +65,15 @@ A lot of assets moving cross-chain does make sense only if we've more visibility
 # High Level Architecture
 ![High Level Architecture of Smart NFT Tooling](https://i.imgur.com/Z7lHIY7.png "Smart NFT Tooling Block Architecture")
 
+# Who can use DripVerse
+There is two major aspects of DripVerse which combines to form the supportive tools for Smart NFTs. The **buidling** aspect and the **using** aspect. The builders are Token gated communities, Brands, Metaverses, Digital Events and other service providers using NFTs in their own products for their users. The users are the users of said platforms who would be motivated to use more of it if given additional benefits and use-cases over that they're currently receiving.
+Nurturing both is equally important.
+
+## Builders
+DripVerse enables builders to reduce their building time and resource usage by almost 1/10<sup>th</sup>, while maintaining a greater control over the utility to be integrated. Thereby also reducing the time and cost to the project not just while development but also while maintaining as it'd be a click away to upgrade. Using the no-code UI provided, builders who are also non-programmers can take advantage of the integration and be done within minutes from what would have been an development process of weeks.
+
+## Explorers
+While the advantages are greater for the builders, the users or explorers will also get the benefit and freedom to move the assets freely and seamlessly across chain and multiple networks. Supporting multiple wallets and a wide range of supported marketplaces, bridges and options to choose from. Since the custom Smart NFT contract will reduce the number of transactions required and lower fee by moving most excruciating tasks to Layer 2 network, thereby saving in millions throughout.
 
 # Conclusion
-
+Smart NFTs are the undoubtedly future of NFTs. And DripVerse Tools are here to nurture and grow the ecosystem.
