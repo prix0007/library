@@ -18,13 +18,28 @@ Author: [Kumar Anirudha](https://twitter.com/kranirudha)
 ### _Powering the Cyberspace_
 
 ## Abstract
-An open web protocol for the decentralised web3 ecosystem. Driving the mainstream adoption is the core to any technology making it. DripVerse Protocol will enable dev tooling with interoperable assets supported by a no-code UI platform as a start to the advent of the open Metaverse OS.
+An open web protocol for the decentralised web3 ecosystem. Driving the mainstream adoption is the core to any technology making it. DripVerse Protocol will enable dev tooling with interoperable assets supported by a no-code UI platform to the advent of the open Metaverse OS. A true democratic web for everyone.
 
 # Summary
+Web1 brought us a new form of computing. Introduced us to a new generation of digital products which opened up a whole new dimension of possibilities. For the first time, data became a commodity and the value of information became apparent.<br />
+Web2 took it a leap frog forward and brought us the internet in a more dynamic and social cycle. Another new generation was introduced who would connect over the internet and would almost live in it. A lot of very interesting innovations happened due to this of course, and we are all grateful for it. But the Web2 was really supposed to set us free but all we got was owned based on behavioral prejudice.<br />
+The promise of Web3 brings us a full circle to what the next generation will look for. The ownership over one's data and control over actions, in addition to a better understanding of the connection we make over a packet transfer of the internet. While the change in particular seems to exist in the nature of the internet, the internet itself also needs a desperate change. And with that change, comes along a new way to operate and build. Virtual Reality and Mixed Reality while being more pleasure than work at this point, provides us with that final piece to step into the changing landscape of web and technology. We have a rare opportunity to build something that truly composes of the technology assisting us to take the step forward.
 
+# Web 3.0
+Web3 or Web3.0 is largely formed around smart contracts. For better or worse, this provides us with certain advantages over the traditional internet. The next generation of products will be around protocols, not apps. What we need to build these protocols is afterall the final goal of DripVerse.
 
-# The Solution
+## Blockchain
+An immutable ledger and a decentralised network! <br />
+Blockchain came with Bitcoin providing a decentralised network incentivised with the native digital tokens that we know as cryptocurrency. Crytocurrency came with a huge promise of being free by itself. Governed by anyone willing to support the network, for which they are also incentivised.
 
+### The ACT Principle
+While we'd love the technology. A single technology can not be force fitted everywhere. To know if your problem needs blockchain, we can follow the ACT principle. If your product is facing Accountability, Coordination or Trust problems, then you need blockchain, otherwise it can probably be solved with centralised solutions from Web2.
+
+## Smart Contracts
+Smart Contracts brought out the best of blockchains for the first time in Ethereum, allowing anyone to write a piece of code to be run on a decentralised network. We've seen protocols growing on various domains using Smart Contracts to solve lot of problems that existed in Web2. Started an entire new race for innovative products in all domains and industries. Even some standardisation with OpenZepplin packages helping with ease of developments. A lot of dev tools came to surface trying to help builders build faster, safer and scale better.
+
+## Non-fungible Tokens
+Smart Contracts also brought us many interesting propositions in terms of EIPs(Ethereum Improvement Proposals). One of the most ground breaking one being ERC-721 or more commonly known as NFTs. A unique digital representation on an immutable ledger, which can be used in other programs in all sorts of ways. This is a remarkable step towards the next evolution of web.
 
 ## Adding Utility to NFTs
 We are starting to see some artists and celebrities coming up with their own NFTs, which provides access to exclusive content, events and deals in respect to the artist who's NFT we might have acquired. This is a great step towards adding utility over PGP NFTs and in turn adds additional value to it. Of course, these can still be traded over any marketplaces. There is also real world objects which are connecting with digital twins using NFTs which provides access to the same digital object in a Metaverse. Even some events and concerts have started adding NFT tickets, which adds further actionable value to the NFT. There are various industries pushing added value to the NFT which is brings us to the next upgrade over NFT, also sometimes called as NFT2.0 or Smart NFTs.
@@ -65,4 +80,4 @@ A lot of assets moving cross-chain does make sense only if we've more visibility
 
 
 # Conclusion
-
+While everything written above is in the works already, this is just the beginning. This paper is not at it's end. We plan on updating it on every stage update as we move forward. Hopefully, you'll join us on this journey.
