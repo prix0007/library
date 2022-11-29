@@ -108,6 +108,11 @@ module.exports = {
           position: "left",
         },
         {
+          to: "/sdk/welcome",
+          label: "📦 SDK",
+          position: "left",
+        },
+        {
           href: "https://blog.dripverse.org",
           label: "Blog",
           position: "right",
