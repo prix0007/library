@@ -1,49 +1,53 @@
 {
-  "guide": [
-    "guide/welcome",
-    {
-      "Vision": [
-        "guide/vision/pledge",
-        "guide/vision/turn",
-        "guide/vision/prestige"
-      ]
-    },
-    "guide/mission",
-    {
-      "NFT": ["guide/nft/about"]
-    },
-    {
-      "Utility": [
-        "guide/utility/introduction",
+    "guide": [
+        "guide/welcome",
         {
-          "Gatekeeper": [
-            "guide/utility/gatekeeper/welcome",
-            "guide/utility/gatekeeper/setup",
-            "guide/utility/gatekeeper/sdk"
-          ]
-        }
-      ]
-    },
-    "guide/versioning",
-    {
-      "Releases": [
+            "Vision": [
+                "guide/vision/pledge",
+                "guide/vision/turn",
+                "guide/vision/prestige"
+            ]
+        },
+        "guide/mission",
         {
-          "Alpha": ["guide/release/alpha"]
+            "NFT": [
+                "guide/nft/about"
+            ]
+        },
+        {
+            "Utility": [
+                "guide/utility/introduction",
+                {
+                    "Gatekeeper": [
+                        "guide/utility/gatekeeper/welcome",
+                        "guide/utility/gatekeeper/setup",
+                        "guide/utility/gatekeeper/sdk"
+                    ]
+                }
+            ]
+        },
+        "guide/versioning",
+        {
+            "Releases": [
+                {
+                    "Alpha": [
+                        "guide/release/alpha"
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "sdk": [
-    "sdk/welcome",
-    {
-      "JS": [
-        "sdk/js/introduction",
-        "sdk/js/setup",
-        "sdk/js/init",
-        "sdk/js/status",
-        "sdk/js/custodial_mint",
-        "sdk/js/verifyUtility"
-      ]
-    }
-  ]
+    ],
+    "sdk": [
+        "sdk/welcome",
+        {
+            "JS": [
+                "sdk/js/introduction",
+                "sdk/js/setup",
+                "sdk/js/init",
+                "sdk/js/status",
+                "sdk/js/custodial_mint",
+                "sdk/js/verifyUtility"
+            ]
+        }
+    ]
 }
