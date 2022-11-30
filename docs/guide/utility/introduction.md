@@ -16,4 +16,17 @@ Let's learn more about our available utilities in DripVerse.
   </Column>
 </FeatureList>
 
+---
+
+## Upcoming Utilities:
+Some of the utilities identified for future releases:
+1. Phygital collectible: Digital twin for a physical product.
+2. Exclusive Audio: Add your music files and provide exclusive access to your NFT holder.
+3. Exclusive Video: Exclusive access to video content to NFT holders.
+4. Merchandise: Provide exclusive access to branded merchandise to your NFT holders.
+5. Newsletter: A limited subscription to your most dedicated readers holding your NFT.
+6. Whitelist: Create an exclusive access to future giveaways and products.
+7. Promo Codes: Provide exclusive discounts, coupons and offers to your dedicated audience.
+8. E-books/PDFs: Improve the reading experience for your dedicated readers. Open limited edition access to your NFT holders.
+
 <Contact />
