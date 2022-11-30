@@ -22,6 +22,7 @@ You can read more about NFTs in this article: [What is NFT?](https://blog.anirud
 - Real Estate
 - Sports
 - Videos and sports highlights
+- Carbon Offsets
 
 - Avatars and PFP
 - Entertainment
