@@ -15,12 +15,43 @@ You can read more about NFTs in this article: [What is NFT?](https://blog.anirud
 
 ## Use-Cases
 
-- Art
-- GIFs
-- Videos and sports highlights
+- Digital Art
 - Collectibles
+- Gaming
 - Virtual avatars and video game skins
-- Designer sneakers
-- Music
+- Real Estate
+- Sports
+- Videos and sports highlights
+
+- Avatars and PFP
+- Entertainment
+- Logistics
+- Fashion Industry
+- Community Platforms
+
+- Fintech
+- Events and Tickets
+- Virtual Reality
+- Supply Chains
+- Photography
+
+- Brand Identity
+- DeFi
+- Travel Industry
+- Hotel and Hospitality Industry
+- Domain Names
+
+- Academic and Digital Credentials
+- Wine Industry
+- Political
+- Architecture
+- Literature and Books
+
+- Healthcare
+- Fundraising
+- Digital Twin
+- Artificial Intelligence (AI)
+- Social Media
 - Tweets
 - Github Commits
+
