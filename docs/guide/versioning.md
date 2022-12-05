@@ -12,7 +12,7 @@ We use versioning at the following places:
 - Libraries
 - Web App
 
-## Roadmap
+# Releases
 Every Minor version tags are releases.
 <br />
 <Releases />
