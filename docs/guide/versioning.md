@@ -12,7 +12,7 @@ We use versioning at the following places:
 - Libraries
 - Web App
 
-## Releases
+## Roadmap
 Every Minor version tags are releases.
 <br />
 <Releases />
@@ -116,3 +116,10 @@ While, we would want to support all past versions, sometimes it's critical to le
 ## Deprecation
 
 Deprecation is for features. If a particular feature changes completely, then that old feature is deprecated alongside the version which has it. The new base would be the new feature. All versions are to be maintained if no incompatible changes takes place.
+
+## Announcements
+
+Regardless of how tech updates happen, wider announcements is a business component. Announcements are made only for:
+
+1. Business Milestones Reached
+2. User Behaviour Changes
