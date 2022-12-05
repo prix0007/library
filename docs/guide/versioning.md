@@ -13,6 +13,7 @@ We use versioning at the following places:
 - Web App
 
 ## Releases
+Every Minor version tags are releases.
 <br />
 <Releases />
 
@@ -20,11 +21,10 @@ For most parts, we tend to follow [Semantic Versioning](https://semver.org/#sema
 
 Given a version number **MAJOR.MINOR.PATCH**, increment the:
 
-- **MAJOR** version when you make incompatible API changes
-- **MINOR** version when you add functionality in a backwards compatible manner
-- **PATCH** version when you make backwards compatible bug fixes
-
-Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+- **MAJOR** version when you make incompatible API changes. These will be announced officially and promoted. Necessary to have release names. Our very own steps. Hopefully, can be done annually. _Ground breaking changes._
+- **MINOR** version when you add functionality in a backwards compatible manner. These will be announced but not promoted actively. Can appear on tech updates. Not necessary to have release names, but good to have. Hopefully, mid of every month. _New value addition._
+- **PATCH** version when you make backwards compatible bug fixes. These will not be announced anywhere except as a bundle. Commonly named as Release Name Patch. Can be anytime, but at least 1 every week. _All fixes. Consmetic changes. Any small progress._
+- **Pre-Release Label** version when you add a pre-release for testing purposes. These are not be used in production in any situation. Strictly, for testing. We will also be monitoring the use of this very closely. Our privacy policy will not be applicable on using this. It is optional. By default, the version will point to main releases.
 
 So, in short, it looks something like:
 ![Semantic Versioning](/img/guide/v1.png "Semantic Versioning")
