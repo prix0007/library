@@ -29,13 +29,13 @@ Additional labels for pre-release and build metadata are available as extensions
 So, in short, it looks something like:
 ![Semantic Versioning](/img/guide/v1.png "Semantic Versioning")
 
-## More on SemVer(Semantic Versioning Specification):
+## More on SemVer(Semantic Versioning Specification) with our minor custom changes:
 
 - A normal version number MUST take the form X.Y.Z where X, Y, and Z are non-negative integers, and MUST NOT contain leading zeroes. X is the major version, Y is the minor version, and Z is the patch version. Each element MUST increase numerically. For instance: 1.9.0 -> 1.10.0 -> 1.11.0.
 
 - Once a versioned package has been released, the contents of that version MUST NOT be modified. Any modifications MUST be released as a new version.
 
-- Major version zero (0.y.z) is for initial development. Anything MAY change at any time. The public API and SDK SHOULD NOT be considered stable.
+- Major version zero (0.y.z) is for initial development. Anything MAY change at any time. The public API and SDK SHOULD NOT be considered stable. Docs may be outdated at times. We will happily oversee all integrations.
 
 - Version 1.0.0 defines the public API. The way in which the version number is incremented after this release is dependent on this public API and how it changes.
 
@@ -112,3 +112,7 @@ To make it easier for users and contributors to see precisely what notable chang
 
 While, we would want to support all past versions, sometimes it's critical to leave old habits due to security, advanced use, new standard/feature introduction and so on reasons. This is commonly followed practice of development process.
 ![Maintenance Flow](/img/guide/maintenance.jpg "Maintenance Flow")
+
+## Deprecation
+
+Deprecation is for features. If a particular feature changes completely, then that old feature is deprecated alongside the version which has it. The new base would be the new feature. All versions are to be maintained if no incompatible changes takes place.
