@@ -13,7 +13,7 @@ const titles = [
 const versions = [
   {
     id: "1",
-    items: ["0.5.0", "Alpha", "", "", "Ani", "Upcoming", ""],
+    items: ["0.5", "Alpha", "", "", "Ani", "0.5.0", "Upcoming"],
     properties: {
       links: {
         4: "https://github.com/anistark",
