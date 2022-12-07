@@ -82,14 +82,11 @@ const drip = new DripSDK(PROJECT_KEY, "alpha");
 You can use the `hasAccess` method to verify whether the user has access, if the user is unauthorized then it throws an error, you can wrap the method in a `try...catch` block to handle it accordingly.
 
 ```js
-try {
-  await drip.hasAccess(USER_ADDRESS, UTILITY_ID);
+const allowed = await drip.hasAccess(USER_ADDRESS, UTILITY_ID);
 
+if (allowed) {
   //   YOUR SUCCESS CODE HERE
-
-} catch (err) {
-
+} else {
   //   YOUR FAILURE CODE HERE
-
 }
 ```
