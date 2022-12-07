@@ -104,7 +104,7 @@ export const MintVideo = () => {
       loop
       autoPlay
       muted
-      src="/videos/mint.mp4"
+      src="https://assets.dripverse.org/videos/mint.mp4"
     />
   );
 };
@@ -116,7 +116,7 @@ export const AddUtilityVideo = () => {
       loop
       autoPlay
       muted
-      src="/videos/add_utility.mp4"
+      src="https://assets.dripverse.org/videos/add_utility.mp4"
     />
   );
 };
@@ -128,7 +128,7 @@ export const GenerateKeyVideo = () => {
       loop
       autoPlay
       muted
-      src="/videos/generate_key.mov"
+      src="https://assets.dripverse.org/videos/generate_key.mov"
     />
   );
 };
