@@ -1069,3 +1069,8 @@ figcaption a,
 .avatar__photo {
   border-radius: 0%;
 }
+
+.quickstart__video {
+  width: 80%;
+  height: 80%;
+}

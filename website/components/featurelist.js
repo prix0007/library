@@ -96,3 +96,39 @@ export function ReleaseHeader() {
     </>
   );
 }
+
+export const MintVideo = () => {
+  return (
+    <video
+      className="quickstart__video"
+      loop
+      autoPlay
+      muted
+      src="/videos/mint.mp4"
+    />
+  );
+};
+
+export const AddUtilityVideo = () => {
+  return (
+    <video
+      className="quickstart__video"
+      loop
+      autoPlay
+      muted
+      src="/videos/add_utility.mp4"
+    />
+  );
+};
+
+export const GenerateKeyVideo = () => {
+  return (
+    <video
+      className="quickstart__video"
+      loop
+      autoPlay
+      muted
+      src="/videos/generate_key.mov"
+    />
+  );
+};

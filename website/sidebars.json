@@ -1,5 +1,6 @@
 {
     "guide": [
+        "guide/quickstart",
         "guide/welcome",
         {
             "Vision": [

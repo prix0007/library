@@ -76,6 +76,7 @@ module.exports = {
   ],
   themeConfig: {
     prism: {
+      theme: require("prism-react-renderer/themes/dracula"),
       additionalLanguages: [
         "rust",
         "java",
@@ -103,7 +104,7 @@ module.exports = {
           position: "left",
         },
         {
-          to: "/guide/welcome",
+          to: "/guide/quickstart",
           label: "📖 Guide",
           position: "left",
         },
