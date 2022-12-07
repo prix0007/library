@@ -23,7 +23,7 @@ Once your're approved, you're all set to explore the whole platform and integrat
 
 If the transation goes through and your NFT is successfully minted, you'll be redirected to the NFT details page.
 
-- Click on **Create new**, fill the relevant details and click **Submit** and sign the transaction.
+- To add a utility, click on **Create new**, fill the relevant details and click **Submit** and sign the transaction.
 
 <AddUtilityVideo />
 
