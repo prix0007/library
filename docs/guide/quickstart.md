@@ -60,13 +60,13 @@ Import the library in your project.
 <Tabs>
   <TabItem value="react" label="React/Typescript" default>
     <CodeBlock language="bash">
-   import DripSDK from "dripverse";
+   import { DripSDK } from "dripverse";
     </CodeBlock>
   </TabItem>
 
   <TabItem value="node" label="Node.js">
     <CodeBlock language="bash">
-   const DripSDK = require('dripverse')
+   const { DripSDK } = require('dripverse')
     </CodeBlock>
   </TabItem>
 </Tabs>
