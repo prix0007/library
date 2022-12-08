@@ -10,7 +10,9 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 
+:::info
 Once your're approved, you're all set to explore the whole platform and integrate DripVerse in your DApp. This guide will step your through your first utility creation and integration in your own platform through Drip SDK.
+:::
 
 ## Step 1: Mint your first NFT
 
@@ -58,13 +60,13 @@ Import the library in your project.
 <Tabs>
   <TabItem value="react" label="React/Typescript" default>
     <CodeBlock language="bash">
-   import DripSDK from "dripverse";
+   import { DripSDK } from "dripverse";
     </CodeBlock>
   </TabItem>
 
   <TabItem value="node" label="Node.js">
     <CodeBlock language="bash">
-   const DripSDK = require('dripverse')
+   const { DripSDK } = require('dripverse')
     </CodeBlock>
   </TabItem>
 </Tabs>
@@ -90,3 +92,7 @@ if (allowed) {
   //   YOUR FAILURE CODE HERE
 }
 ```
+
+:::success
+View [SDK docs](../sdk/js/00_intro.md) for more features and detailed usage.
+:::
