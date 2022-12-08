@@ -44,13 +44,13 @@ Install the DripVerse SDK.
 <Tabs>
   <TabItem value="npm" label="npm" default>
     <CodeBlock language="bash">
-   npm install dripverse
+   `npm install dripverse`
     </CodeBlock>
   </TabItem>
 
   <TabItem value="yarn" label="yarn">
     <CodeBlock language="bash">
-   yarn add dripverse
+   `yarn add dripverse`
     </CodeBlock>
   </TabItem>
 </Tabs>

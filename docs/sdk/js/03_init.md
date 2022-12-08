@@ -24,7 +24,7 @@ You can generate your Oroject API from the Utility Page of the NFT or the Projec
 ```js
 var drip = new DripSDK('PROJECT_API_KEY');
 ```
-[Read more about Utility Setup on DripVerse Platform.](../../concepts/utility/gatekeeper/setup.md)
+[Read more about Utility Setup on DripVerse Platform.](../../guide/utility/gatekeeper/setup.md)
 
 If you want to work on `local` or `alpha`, please add the following:
 ```js

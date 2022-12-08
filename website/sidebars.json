@@ -30,11 +30,7 @@
         "guide/versioning",
         {
             "Releases": [
-                {
-                    "Alpha": [
-                        "guide/release/alpha"
-                    ]
-                }
+                "guide/release/v0.5"
             ]
         }
     ],
