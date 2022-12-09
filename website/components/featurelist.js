@@ -133,203 +133,27 @@ export const GenerateKeyVideo = () => {
   );
 };
 
-export function CardList({ children }) {
+export function CardShelf({ children }) {
   return (
     <>
-      <div class="card-shelf">
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/gz8c8Xs.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Digital Art</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/tv6t72p.png"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Gaming</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/6Lzd3UK.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Sports</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/H9R3lKt.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Tickets</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-shelf">
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/OSsoQHC.gif"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Digital Avatars</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/KAJibNp.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Virtual Land</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/HwgMyO4.png"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Literature and Books</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/6A5ib1J.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Tweets</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-shelf">
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/f9eODs7.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Fashion NFT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/qc698jt.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Carbon Offsets</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/450Iple.png"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Github Commits NFT</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card-container">
-          <div
-            class="card bg"
-            style={{
-              background: `url(
-                "https://i.imgur.com/SnJ6x7k.jpg"
-              )`,
-            }}
-          >
-            <div class="inner-content">
-              <div class="inner-text">
-                <p>Architecture NFT</p>
-              </div>
+      <div class="card-shelf">{children}</div>
+    </>
+  );
+}
+
+export function CardItem({ image, title }) {
+  return (
+    <>
+      <div class="card-container">
+        <div
+          class="card bg"
+          style={{
+            background: `url(${image})`,
+          }}
+        >
+          <div class="inner-content">
+            <div class="inner-text">
+              <p>{title}</p>
             </div>
           </div>
         </div>

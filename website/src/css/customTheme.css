@@ -1095,7 +1095,7 @@ figcaption a,
 }
 
 .card-shelf .bg {
-  background-position: 35% 50%;
+  background-position: 25% 25% !important;
 }
 
 .card-shelf .card:hover {
