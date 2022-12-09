@@ -84,6 +84,7 @@ module.exports = {
         "ruby",
         "go",
         "typescript",
+        "javascript",
       ],
     },
     colorMode: {

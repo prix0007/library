@@ -4,6 +4,9 @@ title: Setup JavaScript SDK
 sidebar_label: Setup
 hide_table_of_contents: false
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
 
 # Setup
 Let's start powering your Dapp with DripVerse.
@@ -15,16 +18,22 @@ Let's start powering your Dapp with DripVerse.
 
 ## Install
 
-The library is available on [NPM(Node Package Manager)](https://www.npmjs.com/package/dripverse).
+The library is available on [Node Package Manager](https://www.npmjs.com/package/dripverse).
 
 From inside your project root, run:
-```bash
-npm install dripverse --save
-```
-or if you prefer yarn:
-```bash
-yarn install dripverse
-```
+<Tabs>
+  <TabItem value="npm" label="npm" default>
+    <CodeBlock language="bash">
+   npm install dripverse --save
+    </CodeBlock>
+  </TabItem>
+
+  <TabItem value="yarn" label="yarn">
+    <CodeBlock language="bash">
+   yarn add dripverse
+    </CodeBlock>
+  </TabItem>
+</Tabs>
 
 You can verify which package version is installed by running:
 ```bash
