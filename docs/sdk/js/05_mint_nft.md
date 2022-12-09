@@ -17,11 +17,13 @@ You need to have:
 
 ### Let's Mint
 
-Make a JSON Object with details as follow:
+First, you need to upload file to IPFS. You'll get a cid, like: `bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim`.
 
+Make a JSON Object with details as follow:
 ```js
+let cid = 'bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim';
+
 let mintData = {
-  filePath: "PATH_TO_YOUR_IMAGE_FILE",
   name: "NFT Name",
   description: "NFT Description",
   networkId: 2
@@ -35,7 +37,7 @@ Optional:
 Now to mint you new NFT, simply call `drip.mint`.
 
 ```js
-let mintRes = await drip.mint(mintData, userData);
+let mintRes = await drip.mint(mintData, cid);
 console.log("mintRes:", mintRes);
 ```
 
