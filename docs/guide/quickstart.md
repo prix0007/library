@@ -1,7 +1,7 @@
 ---
 id: quickstart
 title: Getting Started
-sidebar_label: Quick Start
+sidebar_label: 🚀 Quick Start
 hide_table_of_contents: true
 ---
 

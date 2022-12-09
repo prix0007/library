@@ -1,7 +1,7 @@
 ---
 id: welcome
 title: What is DripVerse?
-sidebar_label: About DripVerse
+sidebar_label: 🔎 About DripVerse
 hide_table_of_contents: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: versioning
 title: Versioning
-sidebar_label: Versioning
+sidebar_label: 🪜 Versioning
 hide_table_of_contents: false
 ---
 import {Releases} from "@site/components/versioning"

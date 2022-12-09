@@ -1,7 +1,7 @@
 ---
 id: introduction
 title: DripVerse Utilities
-sidebar_label: Utility Introduction
+sidebar_label: 🔖 Utility Introduction
 hide_table_of_contents: true
 ---
 import {FeatureList, Column, Feature, Contact} from "@site/components/featurelist"

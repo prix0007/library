@@ -17,7 +17,7 @@ const versions = [
     properties: {
       links: {
         4: "https://github.com/anistark",
-        5: "/guide/release/v0.5",
+        5: "/release/v0.5",
       },
       state: "upcoming",
     },

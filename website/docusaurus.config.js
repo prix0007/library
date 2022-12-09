@@ -76,7 +76,7 @@ module.exports = {
   ],
   themeConfig: {
     prism: {
-      theme: require("prism-react-renderer/themes/dracula"),
+      theme: require("prism-react-renderer/themes/nightOwl"),
       additionalLanguages: [
         "rust",
         "java",
@@ -111,11 +111,21 @@ module.exports = {
         {
           to: "/sdk/welcome",
           label: "📦 SDK",
-          position: "left",
+          position: "right",
+        },
+        {
+          to: "/release/latest",
+          label: "✨ Releases",
+          position: "right",
+        },
+        {
+          href: "https://alpha.dripverse.org",
+          label: "🧪 DripVerse Alpha",
+          position: "right",
         },
         {
           href: "https://blog.dripverse.org",
-          label: "Blog",
+          label: "📘 Blog",
           position: "right",
         },
       ],

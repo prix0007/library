@@ -1,7 +1,7 @@
 ---
 id: setup
 title: Gatekeeper Setup
-sidebar_label: Setup Gatekeeper
+sidebar_label: ⚙️ Setup Gatekeeper
 hide_table_of_contents: true
 ---
 

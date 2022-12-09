@@ -1,6 +1,6 @@
 ---
 id: mission
-title: BUIDL & EXPLORE
+title: ✔️ BUIDL & EXPLORE
 hide_table_of_contents: true
 ---
 

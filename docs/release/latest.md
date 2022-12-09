@@ -1,19 +1,19 @@
 ---
-id: v0.5
-title: v0.5
-sidebar_label: v0.5
+id: latest
+title: v0.4
+sidebar_label: 🆕 v0.4
 hide_table_of_contents: true
 ---
 
 import {ReleaseHeader} from "@site/components/featurelist"
 
-# Version 0.5.0 [Upcoming]
+# Version 0.4.12 [Current]
 
 | Available from | End of Life |
 | --- | --- |
 | **2022-05-12** | **-** |
 
-### Added
+### 🌟 Added
 
 - [Feature] Allocate pre-minted NFTs to users by email or twitter handle.
 - [Feature] Custodial NFT Minting.

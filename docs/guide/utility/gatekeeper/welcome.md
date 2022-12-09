@@ -1,7 +1,7 @@
 ---
 id: welcome
 title: Gatekeeper Utility
-sidebar_label: About Gatekeeper
+sidebar_label: 🚪 About Gatekeeper
 hide_table_of_contents: true
 ---
 
@@ -27,7 +27,7 @@ On hovering over it, it'll open up if you're the rightful owner of the NFT.
 
 The link here will take you through the authorised gate which has been set by the creator.
 
-## Use Cases:
+## Use Cases 🚪:
 1. Gated Link: Provide special access to a gated link.
 2. Token Gated Blog: Exclusive access to your blog by article, tags, category or in entirety.
 3. Decentralised Media Platform: Provide exclusive access based on production house, artist, or in entirety.

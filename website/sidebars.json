@@ -3,7 +3,7 @@
         "guide/quickstart",
         "guide/welcome",
         {
-            "Vision": [
+            "🔮 Vision": [
                 "guide/vision/pledge",
                 "guide/vision/turn",
                 "guide/vision/prestige"
@@ -11,15 +11,15 @@
         },
         "guide/mission",
         {
-            "NFT": [
+            "💎 NFT": [
                 "guide/nft/about"
             ]
         },
         {
-            "Utility": [
+            "🔧 Utility": [
                 "guide/utility/introduction",
                 {
-                    "Gatekeeper": [
+                    "🗝️ Gatekeeper": [
                         "guide/utility/gatekeeper/welcome",
                         "guide/utility/gatekeeper/setup",
                         "guide/utility/gatekeeper/sdk"
@@ -27,12 +27,7 @@
                 }
             ]
         },
-        "guide/versioning",
-        {
-            "Releases": [
-                "guide/release/v0.5"
-            ]
-        }
+        "guide/versioning"
     ],
     "sdk": [
         "sdk/welcome",
@@ -46,5 +41,10 @@
                 "sdk/js/verifyUtility"
             ]
         }
-    ]
+    ],
+    "release": {
+        "🧪 Pre-Alpha": [
+            "release/latest"
+        ]
+    }
 }
