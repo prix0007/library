@@ -25,25 +25,24 @@ To mint a new NFT via sdk:
 
 Prepare a new object with these keys:
 
-- NetworkId: 2 -> Polygon Mumbai
-- NetworkId: 3 -> Goerli
+- NetworkId: 1 -> Polygon Mumbai
+- NetworkId: 2 -> Goerli
 
 ```js
+let cid = "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim";
+
 let mintData = {
-  filePath: "",
   name: "NFT Name",
-  description: "NFT Description",
-  networkId: 3,
+  description: "NFT Description"
 };
 ```
 
-Here, `filePath` is the path to an image for which you want to mint an NFT.
-e.g `./images/dripuniverse.png`
+Here, `cid` is the ipfs cid of the asset for which you want to mint as NFT.
 
 Then mint a NFT from sdk via:
 
 ```js
-const mintRes = await drip.mint(mintData);
+const mintRes = await drip.mint(mintData, cid);
 ```
 
 When Successfully minted expect a response like in `mintRes`:

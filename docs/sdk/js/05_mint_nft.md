@@ -25,8 +25,7 @@ let cid = 'bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim';
 
 let mintData = {
   name: "NFT Name",
-  description: "NFT Description",
-  networkId: 2
+  description: "NFT Description"
 };
 ```
 
