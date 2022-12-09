@@ -1074,3 +1074,101 @@ figcaption a,
   width: 80%;
   height: 80%;
 }
+
+/* CardList */
+.card-shelf {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-shelf .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-shelf .card {
+  border-radius: 25px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.2s;
+}
+
+.card-shelf .bg {
+  background-position: 35% 50%;
+}
+
+.card-shelf .card:hover {
+  width: 600px;
+  height: 600px;
+  margin: 0px;
+  transition: all 0.2s;
+}
+
+.card-shelf .card:hover {
+  width: 600px;
+  height: 600px;
+  margin: 0px;
+  transition: all 0.2s;
+}
+
+.card-shelf
+  .card:hover
+  > .card-shelf
+  .inner-content
+  > .card-shelf
+  .inner-text
+  > .card-shelf
+  .styled-button
+  > .card-shelf
+  .prev-text {
+  display: none;
+  transition: all 0.2s;
+}
+
+.card-shelf .post-text {
+  display: none;
+  transition: all 0.2s;
+}
+
+.card-shelf
+  .card:hover
+  > .card-shelf
+  .inner-content
+  > .card-shelf
+  .inner-text
+  > .card-shelf
+  .styled-button
+  > .card-shelf
+  .post-text {
+  display: block;
+  transition: all 0.2s;
+}
+
+.card-shelf .inner-content {
+  position: relative;
+  height: 100%;
+}
+
+.card-shelf .styled-button {
+  float: right;
+  cursor: pointer;
+  background: none;
+  color: white;
+  backdrop-filter: blur(5px);
+  border: white solid 0.5px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.card-shelf .inner-text {
+  position: absolute;
+  text-shadow: 2px 2px black;
+  font-size: 1.5rem;
+  padding: 15px;
+  bottom: 0;
+  color: white;
+}
