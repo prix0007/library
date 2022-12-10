@@ -73,7 +73,7 @@ function Footer() {
         <div className="row">
           <div className="col md:w-1/4">
             <img
-              src="https://api.dripverse.org/static/assets/images/logo/logo-text.png"
+              src="/img/logo-text.png"
               className="locked"
               width="250"
               alt=""
@@ -253,6 +253,9 @@ function Footer() {
                   {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2801">
                     <a href="https://dripverse.org/technology/">Technology</a>
                   </li> */}
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-2801">
+                    <a href="/sdk/welcome">SDK Docs</a>
+                  </li>
                   <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-116">
                     <a
                       target="_blank"
@@ -265,11 +268,11 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              {/* <div className="col sm:w-1/3 mt-50">
-                <h2 className="font-black text-24 text-blue-light">
+              <div className="col sm:w-1/3 mt-50">
+                {/* <h2 className="font-black text-24 text-blue-light">
                   Community
-                </h2>
-                <ul
+                </h2> */}
+                {/* <ul
                   id="menu-community-1"
                   className="mt-5 footer-menu list-reset text-16 md:text-18"
                 >
@@ -300,8 +303,8 @@ function Footer() {
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-7161">
                     <a href="https://dripverse.org/tokens/">Tokens</a>
                   </li>
-                </ul>
-              </div> */}
+                </ul> */}
+              </div>
               <div className="col sm:w-1/3 mt-50">
                 <h2 className="font-black text-24 text-blue-light">About</h2>
                 <ul

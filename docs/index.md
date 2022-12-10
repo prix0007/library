@@ -23,14 +23,14 @@ Welcome! This is the starting point for all the documentation in DripVerse.
       </a>
     </div>
     <div className="col col--6">
-      <a href="/guide/welcome">
+      <a href="/guide/quickstart">
         <div className="card">
           <div className="card__image">
-            <img src={require("@site/static/docs/assets/welcome-pages/network.png").default} alt="Guide" />
+            <img src={require("@site/static/docs/assets/welcome-pages/quickstart.jpg").default} alt="Quick Start" />
           </div>
           <div className="card__body">
-            <h3>DripVerse Guide</h3>
-            Navigate and learn all important concepts in and around DripVerse.
+            <h3>Quick Start</h3>
+            Can't wait to jump to integrate DripVerse? Us, too.
           </div>
         </div>
       </a>
