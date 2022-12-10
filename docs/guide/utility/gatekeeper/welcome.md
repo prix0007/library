@@ -30,7 +30,7 @@ The link here will take you through the authorised gate which has been set by th
 ## Use Cases 🚪:
 1. Gated Link: Provide special access to a gated link.
 2. Token Gated Blog: Exclusive access to your blog by article, tags, category or in entirety.
-3. Decentralised Media Platform: Provide exclusive access based on production house, artist, or in entirety.
+3. Decentralised Media Platform: Provide exclusive access based on production house, artist, or in entirety. [DEMO](https://neflix-demo-drip.vercel.app/)
 4. Metaverse Event: Let your audience holding your NFT exclusive access to your event.
 5. Livestream: Let your audience listen in and participate by controlling access via same or different NFTs.
 6. Ask Me Anything: Host an exclusive AMAs with verified guests.
