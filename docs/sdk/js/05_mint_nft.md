@@ -1,5 +1,5 @@
 ---
-id: custodial_mint
+id: mint
 title: DripVerse Mint
 sidebar_label: Mint
 hide_table_of_contents: false
@@ -31,7 +31,7 @@ let mintData = {
 
 Optional:
 - `description`
-- `networkId` (_default 2_)
+- `networkId` (_default 1_)
 
 Now to mint you new NFT, simply call `drip.mint`.
 

@@ -1,5 +1,5 @@
 ---
-id: verifyUtility
+id: verify
 title: Verify Utility Access
 sidebar_label: Verify Access
 hide_table_of_contents: false
