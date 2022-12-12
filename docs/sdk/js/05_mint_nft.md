@@ -17,19 +17,27 @@ You need to have:
 
 ### Let's Mint
 
-First, you need to upload file to IPFS. You'll get a cid, like: `bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim`.
+First, you need to upload file to IPFS. You'll get a cid, like: `bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim/hinata.png`.
+:::info
+Make sure you give the absolute cid to the asset with the path, if your asset is inside a cid pointing to a folder.
+:::
 
 Make a JSON Object with details as follow:
+
 ```js
-let cid = 'bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim';
+let cid = {
+  type: "image",
+  cid: "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim/hinata.png",
+};
 
 let mintData = {
   name: "NFT Name",
-  description: "NFT Description"
+  description: "NFT Description",
 };
 ```
 
 Optional:
+
 - `description`
 - `networkId` (_default 1_)
 
@@ -41,6 +49,7 @@ console.log("mintRes:", mintRes);
 ```
 
 You should get an output indicating the `nftId`. The `mintRes` above should give a response as follows:
+
 ```js
 {
   id: 28,
