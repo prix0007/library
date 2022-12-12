@@ -1,6 +1,6 @@
 {
   "name": "library",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "description": "Docs of, for and by DripVerse",
   "scripts": {
     "test": "cd ./website && npm run test"
