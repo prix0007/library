@@ -29,15 +29,29 @@ Prepare a new object with these keys:
 - NetworkId: 2 -> Goerli
 
 ```js
-let cid = "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim";
+let cid = {
+  assetType: "image",
+  cid: "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim/hinata.png",
+};
+
+// OR
+// where inside metadata.json, there must be a key to `image`
+
+let cid = {
+  assetType: "json",
+  cid: "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi/metadata.json",
+};
 
 let mintData = {
   name: "NFT Name",
-  description: "NFT Description"
+  description: "NFT Description",
 };
 ```
 
 Here, `cid` is the ipfs cid of the asset for which you want to mint as NFT.
+:::info
+Make sure you give the absolute cid to the asset with the path, if your asset is inside a cid pointing to a folder.
+:::
 
 Then mint a NFT from sdk via:
 
