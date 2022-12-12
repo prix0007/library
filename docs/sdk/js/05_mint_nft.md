@@ -26,8 +26,16 @@ Make a JSON Object with details as follow:
 
 ```js
 let cid = {
-  type: "image",
+  assetType: "image",
   cid: "bafybeifhadklgjjfdxx2nvomyrhjsobhbxeenwc5bheftcetcyqz4yywim/hinata.png",
+};
+
+// OR
+// where inside metadata.json, there must be a key to `image`
+
+let cid = {
+  assetType: "json",
+  cid: "bafyreieha6jqtnu4f4njyaovknxyyxeurkcsopcryrggxkt7hcbi5zmwzi/metadata.json",
 };
 
 let mintData = {
