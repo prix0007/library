@@ -7,8 +7,7 @@ hide_table_of_contents: true
 
 _If you have made this far, you are curious about the future of the web3 and ecosystem as much as we are._
 
-DripVerse is an open web protocol for the decentralised web3 ecosystem. DripVerse comprises of suite of protocols and tools integrated to work seamlessly cross-chain with a MetaverseOS at it's core, that allows developers and users to build and interact both while allowing open and free customisation of the protocol itself.
-
+DripVerse Protocol aims to improve web3 dev tooling and infrastructure for the builders and creators starting with improving the post-mint experience.<br />
 DripVerse is build on non-fungible tokens with utilities built over it called as SmartNFT. SmartNFT is the current focus of our team, so let's understand a little more about them.
 
 ## Adding Utility to NFTs
