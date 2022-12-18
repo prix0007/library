@@ -47,5 +47,8 @@
         "🧪 Pre-Alpha": [
             "release/latest"
         ]
-    }
+    },
+    "cli": [
+        "cli/welcome"
+    ]
 }
