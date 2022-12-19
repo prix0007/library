@@ -3,40 +3,7 @@ import "/css/components/roadmap.css";
 
 const releases = [
   {
-    startDate: "April 2022",
-    endOfLife: "",
-    title: "Concept",
-    version: "0.0.1",
-    updates: {
-      "Smart NFT Litepaper": {
-        description:
-          "Smart NFT Litepaper describes the first step towards DripVerse Protocol.",
-        link: "",
-        status: {
-          active: "green",
-        },
-      },
-    },
-  },
-  {
-    startDate: "August 2022",
-    endOfLife: "",
-    title: "Ideation",
-    version: "0.0.1",
-    updates: {
-      Vision: {
-        description:
-          "A complete vision towards Cyberspace and open Metaverse OS is formed.",
-        link: "",
-        status: {
-          active: "green",
-        },
-      },
-    },
-  },
-  {
     startDate: "December 2022",
-    endOfLife: "Ongoing",
     title: "Pre-Alpha",
     version: "0.4.16",
     updates: {
@@ -98,6 +65,36 @@ const releases = [
       },
     },
   },
+  {
+    startDate: "August 2022",
+    title: "Ideation",
+    version: "0.0.1",
+    updates: {
+      Vision: {
+        description:
+          "A complete vision towards Cyberspace and open Metaverse OS is formed.",
+        link: "",
+        status: {
+          active: "green",
+        },
+      },
+    },
+  },
+  {
+    startDate: "April 2022",
+    title: "Concept",
+    version: "0.0.1",
+    updates: {
+      "Smart NFT Litepaper": {
+        description:
+          "Smart NFT Litepaper describes the first step towards DripVerse Protocol.",
+        link: "",
+        status: {
+          active: "green",
+        },
+      },
+    },
+  },
 ];
 
 const UpdateItem = ({ title, description }) => {
@@ -116,9 +113,7 @@ const Milestone = ({ milestone }) => {
     <li className="timeline-event">
       <label className="timeline-event-icon"></label>
       <div className="timeline-event-copy">
-        <p className="timeline-event-thumbnail">
-          {milestone.startDate} - {milestone.endOfLife}
-        </p>
+        <p className="timeline-event-thumbnail">{milestone.startDate}</p>
         <h3>{milestone.title}</h3>
         <h4>{milestone.version}</h4>
         {Object.keys(milestone.updates).map((title) => (
