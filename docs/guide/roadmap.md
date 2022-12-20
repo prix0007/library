@@ -1,7 +1,7 @@
 ---
 id: roadmap
-title: Milestones & Roadmap
-sidebar_label: 📅 Our Roadmap
+title: Roadmap
+sidebar_label: 🎯 Roadmap
 hide_table_of_contents: true
 ---
 import {Contact} from "@site/components/featurelist"

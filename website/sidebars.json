@@ -28,7 +28,8 @@
                 }
             ]
         },
-        "guide/versioning"
+        "guide/versioning",
+        "guide/roadmap"
     ],
     "sdk": [
         "sdk/welcome",

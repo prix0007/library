@@ -3,6 +3,36 @@ import "/css/components/roadmap.css";
 
 const releases = [
   {
+    startDate: "April 2022",
+    title: "Concept",
+    version: "0.0.1",
+    updates: {
+      "Smart NFT Litepaper": {
+        description:
+          "Smart NFT Litepaper describes the first step towards DripVerse Protocol.",
+        link: "",
+      },
+    },
+    status: {
+      past: "gray",
+    },
+  },
+  {
+    startDate: "August 2022",
+    title: "Ideation",
+    version: "0.0.1",
+    updates: {
+      Vision: {
+        description:
+          "A complete vision towards Cyberspace and open Metaverse OS is formed.",
+        link: "",
+      },
+    },
+    status: {
+      past: "gray",
+    },
+  },
+  {
     startDate: "December 2022",
     title: "Pre-Alpha",
     version: "0.4.16",
@@ -24,9 +54,6 @@ const releases = [
         },
         blog: "",
         tweet: "",
-        status: {
-          active: "green",
-        },
       },
       "DripVerse SDK": {
         description:
@@ -43,11 +70,8 @@ const releases = [
         },
         blog: "",
         link: "",
-        status: {
-          active: "green",
-        },
       },
-      "Twitter Bot": {
+      "Tweet NFTs": {
         description:
           "A twitter bot is released to mint NFT of any tweet that someone wants. Simply mention '@DripThisTweet' and the bot would mint NFT and reply to your tweet with the NFT link. You'd have to then claim the NFT from DripVerse Platform. It'll be reserved to the twitter handle via which the NFT minting request came. So, you'd also need to verify if you are the owner of the Twitter Account.",
         features: {
@@ -59,40 +83,38 @@ const releases = [
         blog: "",
         tweet: "",
         link: "",
-        status: {
-          active: "green",
-        },
       },
+    },
+    status: {
+      active: "green",
     },
   },
   {
-    startDate: "August 2022",
-    title: "Ideation",
-    version: "0.0.1",
+    startDate: "Ongoing",
+    title: "Aplha",
+    version: "0.5.0",
     updates: {
-      Vision: {
+      "BUIDL Dashboard": {
         description:
-          "A complete vision towards Cyberspace and open Metaverse OS is formed.",
+          "A consolidated dashboard to view all functionalities in one place. As we add more features to DripVerse, this will become the cornerstone to how you can integrate, integrate and progress with DripVerse.",
         link: "",
-        status: {
-          active: "green",
-        },
+      },
+      "NFT Whitelist": {
+        description:
+          "Allow an exclusive sub-part of your community to access special features by whitelisting them.",
+        link: "",
+      },
+      "NFT Drops": {
+        description: "Drop NFTs to your loyal community members.",
+        link: "",
+      },
+      "NFT Auction": {
+        description: "List NFTs publicly and get bids.",
+        link: "",
       },
     },
-  },
-  {
-    startDate: "April 2022",
-    title: "Concept",
-    version: "0.0.1",
-    updates: {
-      "Smart NFT Litepaper": {
-        description:
-          "Smart NFT Litepaper describes the first step towards DripVerse Protocol.",
-        link: "",
-        status: {
-          active: "green",
-        },
-      },
+    status: {
+      ongoing: "blue",
     },
   },
 ];
