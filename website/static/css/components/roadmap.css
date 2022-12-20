@@ -34,6 +34,7 @@ body {
 
 .timeline-event {
   position: relative;
+  list-style: none;
 }
 .timeline-event:hover .timeline-event-icon {
   -moz-transform: rotate(-45deg);

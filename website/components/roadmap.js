@@ -129,7 +129,7 @@ const Milestone = ({ milestone }) => {
 
 const Roadmap = ({ releases }) => {
   return (
-    <ul class="timeline">
+    <ul className="timeline">
       {Object.keys(releases).map((key) => (
         <Milestone milestone={releases[key]} />
       ))}
